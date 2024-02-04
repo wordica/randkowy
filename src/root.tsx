@@ -16,7 +16,7 @@ import "./root.css";
 
 export default function Root() {
   return (
-    <Html lang="en">
+    <Html lang="pl">
       <Head>
         <Title>Strona dla ciekawego portalu randkowego dla singli po 40</Title>
         <Meta charset="utf-8" />
@@ -26,7 +26,7 @@ export default function Root() {
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <A href="/">O portalu</A>
+            <A title='portal randkowy 40latki.pl' href="https://40latki.pl">O portalu</A>
             <A href="/about">O nas</A>
             <Routes>
               <FileRoutes />
