@@ -18,15 +18,16 @@ export default function Root() {
   return (
     <Html lang="en">
       <Head>
-        <Title>SolidStart - Bare</Title>
+        <Title>Strona dla ciekawego portalu randkowego dla singli po 40</Title>
         <Meta charset="utf-8" />
+        <Meta name='description' content='Strona przeznaczona dla promocji portalu randkowego przeznaczonego dla singli po 40 roku życia. 40 plus zapraszamy do rejestracji na portalu'/>
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Body>
         <Suspense>
           <ErrorBoundary>
-            <A href="/">Index</A>
-            <A href="/about">About</A>
+            <A href="/">O portalu</A>
+            <A href="/about">O nas</A>
             <Routes>
               <FileRoutes />
             </Routes>
